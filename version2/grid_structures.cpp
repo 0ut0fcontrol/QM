@@ -57,13 +57,13 @@ void DataStructure::set_nConf()
     for (auto item : m_R_NDX) {
         if (item < 2.51) {
             m_nConf.push_back(54);
-            m_nNorm.push_back(4);
+            m_nNorm.push_back(8);
         } else if (item > 2.51 && item < 3.51) {
             m_nConf.push_back(210);
-            m_nNorm.push_back(4);
+            m_nNorm.push_back(8);
         } else if (item > 3.51 && item < 5.51) {
             m_nConf.push_back(54);
-            m_nNorm.push_back(2);
+            m_nNorm.push_back(4);
         } else {
             m_nConf.push_back(26);
             m_nNorm.push_back(2);

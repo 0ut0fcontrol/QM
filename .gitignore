@@ -64,4 +64,5 @@
 **/*.app
 
 # tar.gz file
-*.gz
+**/*.gz
+
