@@ -62,3 +62,6 @@
 **/*.exe
 **/*.out
 **/*.app
+
+# tar.gz file
+*.gz
